@@ -1,0 +1,15 @@
+{
+  "name": "devtoolkit-regex-pattern-library",
+  "version": "1.0.0",
+  "description": "A tested, practical JavaScript regex pattern library for developers.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "validate": "node scripts/validate-patterns.mjs",
+    "sync": "node scripts/sync-from-website.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
